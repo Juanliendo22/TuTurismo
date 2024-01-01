@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<html lang="es">
+
+<head>
+    <title>Tu Página Web</title>
+    <link rel="stylesheet" href="./layouts/index.css"> <!-- Enlaza tu archivo CSS -->
+</head>
+
+<body>
+
+    <!-- Barra de navegación con el logo -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#">
+                <h1>TuTurismo</h1>
+            </a>
+        </div>
+
+        <form class="search-form" action="/buscar" method="GET">
+            <input type="text" placeholder="Buscar..." name="q">
+            <button type="submit">Buscar</button>
+        </form>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca</a></li>
+            <li><a href="./viajes.html">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main class="main">
+        <div class="contenido1">
+            <video class="video" src="./videos/video.mp4" autoplay muted loop></video>
+        </div>
+        <div class="contenido-superpuesto">
+            <!-- Contenido que se superpondrá -->
+            <h1>¡Viaja con pasion, vive con emocion!</h1>
+
+
+
+        </div>
+
+        <div class="caja-contenido">
+            <!-- Contenido adicional -->
+            <a class="boton" href="./quienesSomos.html">¿QUIENES SOMOS?</a>
+        </div>
+
+    </main>
+
+
+   
+</body>
+
+</html>
